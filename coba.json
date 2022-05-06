@@ -1,0 +1,14 @@
+{
+    "nama"  : "Muhammad Rizki Aljabari",
+    "umur"  : 29,
+    "nip"   : 10111407,
+    "lulus" : true,
+    "hobi"  : [
+        "futsal", 
+        "hiking"
+    ],
+    "pembimbing" : {
+        "pembimbing 1": "Hanhan",
+        "pembimbing 2": "Iqbal"
+    }
+}
