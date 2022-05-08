@@ -1,0 +1,9 @@
+{
+    
+    "kateogri"  : "Pizza",
+    "jenis" : "Signature",
+    "menu" : {
+        "menu 1": "Meat Lover",
+        "menu 2": "Super Supreme"
+    }
+}
