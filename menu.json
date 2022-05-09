@@ -34,17 +34,18 @@
         }
     },   
     {
-        "nama menu" : "Meat Lovers",
+        "nama menu" : "Super Supreme",
         "kateogri"  : "Pizza",
         "jenis" : "Signature",
         "tambahan" :  {
             "toping" : [
-                "Burger Sapi",
-                "Daging Sapi Cincang",
-                "Sosis Sapi",
-                "Sosis Ayam",
-                "Keju Mozzarella",
-                "Saus Pizza Spesial"
+                "Daging asap ayam",
+                "daging asap dan burger sapi",
+                "jamur",
+                "nanas",
+                "paprika merah & hijau",
+                "keju mozzarella",
+                "saus pizza spesial"
             ],
             "ekstra mozarella" : {
                 "regular" : 12000,
@@ -62,6 +63,38 @@
             "j" : {
                 "original" : 14000,
                 "stuffed crust" : 170000,
+                "sausage crust" : null,
+                "cheesy bites" : null
+                }    
+        }
+    },   
+    {
+        "nama menu" : "Meaty",
+        "kateogri"  : "Pizza",
+        "jenis" : "Classic",
+        "tambahan" :  {
+            "toping" : [
+                "Sosis ayam & sapi",
+                "Burger sapi",
+                "keju mozzarella", 
+                "Saus Keju Special" 
+            ],
+            "ekstra mozarella" : {
+                "regular" : 12000,
+                "large" : 20000
+            }     
+        },
+        "top" : [null,null],
+        "harga" :  {
+            "r" : {
+                "original" : 90000,
+                "stuffed crust" : 112000,
+                "sausage crust" : 112000,
+                "cheesy bites" : null
+            },
+            "j" : {
+                "original" : null,
+                "stuffed crust" : null,
                 "sausage crust" : null,
                 "cheesy bites" : null
                 }    
