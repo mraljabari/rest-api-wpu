@@ -258,10 +258,102 @@
                 "regular" : null,
                 "large" : null
             }     
-        },
+        }, 
         "favorit" : true,
         "varian" : [null,null],
         "harga" :  53000
+    },
+    {
+        "nama menu" : "Cheese Rolls",
+        "kateogri"  : "snack",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                "roti dengan keju mozzarella"
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        },
+        "favorit" : true,
+        "varian" : [null,null],
+        "harga" :  27000
+    },   
+    {
+        "nama menu" : "Fresh Salad",
+        "kateogri"  : "snack",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                "selada",
+                "tomat",  
+                "jeli",
+                "jagung",
+                "kentang",
+                "endamame",
+                "telur",
+                "saus thousand island"
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        }, 
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  37000
+    },   
+    {
+        "nama menu" : "Cappuccino Jelly",
+        "kateogri"  : "drink",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                "minuman rasa cappuccino dengan jelly didalamnya"
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        }, 
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  19000
+    },
+    {
+        "nama menu" : "Melon Lemonade",
+        "kateogri"  : "drink",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                "Mellon flavoured drink with basil seeds and melon jelly"
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        }, 
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  13000
+    },
+    {
+        "nama menu" : "Coca Cola 1 Liter",
+        "kateogri"  : "drink",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                ""
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        }, 
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  22000
     }   
 
 ]
