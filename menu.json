@@ -4,6 +4,8 @@
     "jenis" : "Signature",
     "menu" : {
         "menu 1": "Meat Lover",
-        "menu 2": "Super Supreme"
+        "menu 2": "Super Supreme",
+        "menu 3": "American Favourit",
+        "menu 4": "TUna Melt"
     }
 }
