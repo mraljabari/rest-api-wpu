@@ -1,11 +1,71 @@
-{
-    
-    "kateogri"  : "Pizza",
-    "jenis" : "Signature",
-    "menu" : {
-        "menu 1": "Meat Lover",
-        "menu 2": "Super Supreme",
-        "menu 3": "American Favourit",
-        "menu 4": "TUna Melt"
-    }
-}
+[
+    {
+        "nama menu" : "Meat Lovers",
+        "kateogri"  : "Pizza",
+        "jenis" : "Signature",
+        "tambahan" :  {
+            "toping" : [
+                "Burger Sapi",
+                "Daging Sapi Cincang",
+                "Sosis Sapi",
+                "Sosis Ayam",
+                "Keju Mozzarella",
+                "Saus Pizza Spesial"
+            ],
+            "ekstra mozarella" : {
+                "regular" : 12000,
+                "large" : 20000
+            }     
+        },
+        "top" : ["sapi","ayam"],
+        "harga" :  {
+            "r" : {
+                "original" : 9600,
+                "stuffed crust" : 118000,
+                "sausage crust" : 118000,
+                "cheesy bites" : 12200
+            },
+            "j" : {
+                "original" : 14000,
+                "stuffed crust" : 170000,
+                "sausage crust" : null,
+                "cheesy bites" : null
+                }    
+        }
+    },   
+    {
+        "nama menu" : "Meat Lovers",
+        "kateogri"  : "Pizza",
+        "jenis" : "Signature",
+        "tambahan" :  {
+            "toping" : [
+                "Burger Sapi",
+                "Daging Sapi Cincang",
+                "Sosis Sapi",
+                "Sosis Ayam",
+                "Keju Mozzarella",
+                "Saus Pizza Spesial"
+            ],
+            "ekstra mozarella" : {
+                "regular" : 12000,
+                "large" : 20000
+            }     
+        },
+        "top" : ["sapi","ayam"],
+        "harga" :  {
+            "r" : {
+                "original" : 9600,
+                "stuffed crust" : 118000,
+                "sausage crust" : 118000,
+                "cheesy bites" : 12200
+            },
+            "j" : {
+                "original" : 14000,
+                "stuffed crust" : 170000,
+                "sausage crust" : null,
+                "cheesy bites" : null
+                }    
+        }
+    }   
+
+]
