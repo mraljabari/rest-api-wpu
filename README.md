@@ -8,6 +8,7 @@ Chapter 3. What is JSON and create simple rest-api made with JSON, PHP, JavaScri
 Chapter 4. Working with JSON
 ...
 <hr><br>
+*UPDATE PROJECT IS ON THE BRANCH "EDIT"
 
 my referece to made this project [^note].
 [^note]:
