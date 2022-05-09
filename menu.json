@@ -17,7 +17,8 @@
                 "large" : 20000
             }     
         },
-        "top" : ["sapi","ayam"],
+        "favorit" : true,
+        "varian" : ["sapi","ayam"],
         "harga" :  {
             "r" : {
                 "original" : 9600,
@@ -52,7 +53,8 @@
                 "large" : 20000
             }     
         },
-        "top" : ["sapi","ayam"],
+        "favorit" : true,
+        "varian" : ["sapi","ayam"],
         "harga" :  {
             "r" : {
                 "original" : 9600,
@@ -84,7 +86,8 @@
                 "large" : 20000
             }     
         },
-        "top" : [null,null],
+        "favorit" : true,
+        "varian" : [null,null],
         "harga" :  {
             "r" : {
                 "original" : 90000,
@@ -99,6 +102,166 @@
                 "cheesy bites" : null
                 }    
         }
+    },   
+    {
+        "nama menu" : "Supreme",
+        "kateogri"  : "Pizza",
+        "jenis" : "Classic",
+        "tambahan" :  {
+            "toping" : [
+                "Daging Sapi",
+                "Daging Asap",
+                "jamur", 
+                "nanas", 
+                "paprika hijau", 
+                "keju mozzarella",  
+                "saus pizza spesial"  
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        },
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  {
+            "r" : {
+                "original" : 90000,
+                "stuffed crust" : 112000,
+                "sausage crust" : 112000,
+                "cheesy bites" : null
+            },
+            "j" : {
+                "original" : null,
+                "stuffed crust" : null,
+                "sausage crust" : null,
+                "cheesy bites" : null
+                }    
+        }
+    },   
+    {
+        "nama menu" : "Supreme",
+        "kateogri"  : "Pizza",
+        "jenis" : "Classic",
+        "tambahan" :  {
+            "toping" : [
+                "Daging Sapi",
+                "Daging Asap",
+                "jamur", 
+                "nanas", 
+                "paprika hijau", 
+                "keju mozzarella",  
+                "saus pizza spesial"  
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        },
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  {
+            "r" : {
+                "original" : 90000,
+                "stuffed crust" : 112000,
+                "sausage crust" : 112000,
+                "cheesy bites" : null
+            },
+            "j" : {
+                "original" : null,
+                "stuffed crust" : null,
+                "sausage crust" : null,
+                "cheesy bites" : null
+                }    
+        }
+    },   
+    {
+        "nama menu" : "Splitza",
+        "kateogri"  : "Pizza",
+        "jenis" : "Classic",
+        "tambahan" :  {
+            "toping" : [
+                "2 toping dalam satu pizza"  
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        },
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  {
+            "r" : {
+                "original" : 98000,
+                "stuffed crust" : 120000,
+                "sausage crust" : null,
+                "cheesy bites" : null
+            },
+            "j" : {
+                "original" : 145000,
+                "stuffed crust" : 175000,
+                "sausage crust" : null,
+                "cheesy bites" : null
+                }    
+        }
+    },   
+    {
+        "nama menu" : "Beef Lasagna",
+        "kateogri"  : "pasta",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                "lapisan pasta creamy",
+                "daging cincang"  
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        },
+        "favorit" : true,
+        "varian" : [null,null],
+        "harga" :  53000
+    },   
+    {
+        "nama menu" : "Beef Spaghetti",
+        "kateogri"  : "pasta",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                "pasta",
+                "saus tomat",  
+                "daging cingcang",  
+                "taburan keju",  
+                "parsley"  
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        },
+        "favorit" : false,
+        "varian" : [null,null],
+        "harga" :  53000
+    },   
+    {
+        "nama menu" : "Chicken Fettuccine Alla Italia",
+        "kateogri"  : "pasta",
+        "jenis" : null,
+        "tambahan" :  {
+            "toping" : [
+                "pasta creamy",
+                "saus special ala italia",  
+                "potongan ayam renyag"
+            ],
+            "ekstra mozarella" : {
+                "regular" : null,
+                "large" : null
+            }     
+        },
+        "favorit" : true,
+        "varian" : [null,null],
+        "harga" :  53000
     }   
 
 ]
