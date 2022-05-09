@@ -7,7 +7,11 @@ Chapter 2. What is REST and HTTP.<br>
 Chapter 3. What is JSON and create simple rest-api made with JSON, PHP, JavaScript.<br>
 Chapter 4. Working with JSON
 ...
-<hr><br>
+<hr>
+*UPDATE PROJECT IS ON THE BRANCH "EDIT"
+<br>
+<br>
+<br>
 
 my referece to made this project [^note].
 [^note]:
