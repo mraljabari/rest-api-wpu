@@ -1,3 +1,12 @@
+<?php
+$data = file_get_contents('data/pizza.json');
+$menu = json_decode($data, true);
+
+var_dump($menu);
+
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,7 +22,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png">  </a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" width="120">  </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,7 +38,24 @@
     </nav>
 
     <div class="container">
+        <div class="row" mt-3>
+            <div class="col">
+                <h1>All item</h1>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-md-4">
+            <div class="card">
+                <img src="img/menu/american-favourite.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">American Favourite</h5>
+                    <p class="card-text">Pepperoni sapi, daging sapi cincang, jamur.</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->
