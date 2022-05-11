@@ -1,9 +1,13 @@
 <?php
 $data = file_get_contents('data/pizza.json');
 $menu = json_decode($data, true);
+// var_dump($menu);
+?>
 
-var_dump($menu);
-
+<br><br><br>
+<?php
+// var_dump($menu["menu"][2]["nama"]);
+$menu = $menu["menu"];
 
 ?>
 
@@ -28,7 +32,7 @@ var_dump($menu);
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#">All Menu <span class="sr-only">(current)</span></a>
                 <!-- <a class="nav-item nav-link" href="#">Features</a>
                 <a class="nav-item nav-link" href="#">Pricing</a>
                 <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
@@ -38,23 +42,25 @@ var_dump($menu);
     </nav>
 
     <div class="container">
-        <div class="row" mt-3>
+        <div class="row mt-3">
             <div class="col">
-                <h1>All item</h1>
+                <h1>All Menu</h1>
             </div>
         </div>
-
         <div class="row">
+            <?php foreach ($menu as $row) : ?>
             <div class="col-md-4">
-            <div class="card">
-                <img src="img/menu/american-favourite.jpg" class="card-img-top" alt="...">
+            <div class="card mb-3">
+                <img src="img/menu/<?= $row["gambar"]; ?>" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">American Favourite</h5>
-                    <p class="card-text">Pepperoni sapi, daging sapi cincang, jamur.</p>
+                    <h5 class="card-title"><?= $row["nama"]; ?></h5>
+                    <p class="card-text"><?= $row["deskripsi"];?></p>
+                    <p class="card-text"><b>Harga : Rp. <?= $row["harga"];?></b></p>
                     <a href="#" class="btn btn-primary">Order Now</a>
                 </div>
                 </div>
             </div>
+            <?php endforeach; ?>
         </div>
     </div>
 
