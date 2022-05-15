@@ -8,7 +8,7 @@ Chapter 3. What is JSON and create simple rest-api made with JSON, PHP, JavaScri
 Chapter 4. Working with JSON
 ...
 <hr>
-*UPDATE PROJECT IS ON THE BRANCH "EDIT"
+*in folder "latihanMenu" there is a simple project landing page with PHP and JS about Pizza Menu
 <br>
 <br>
 <br>
