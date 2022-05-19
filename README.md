@@ -14,7 +14,7 @@ Chapter 5. What is Public API.<br>
 <br>
 
 ## List Public API
-- Any API [Link]([https://www.youtube.com/channel/UCkXmLjEr95LVtGuIm3l2dPg](https://any-api.com/))
+- Any API [Link](https://any-api.com/)
 
 <br>
 
