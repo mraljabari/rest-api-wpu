@@ -15,6 +15,8 @@ Chapter 5. What is Public API.<br>
 
 ## List Public API
 - Any API [Link](https://any-api.com/)
+- Todmotto [Link](https://github.com/toddmotto/public-apis)
+- Farizdotid [link](https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA)
 
 <br>
 
